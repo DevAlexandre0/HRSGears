@@ -5,11 +5,15 @@ author 'Hugo Rafael Simoes'
 description 'CaixaManual'
 version '1.0'
 
-
 client_scripts {
 	"client.lua",
-	"config.lua",	
-
+	"config.lua",
+}
+exports {
+	-- Gear
+	'getinfo',
+	'check',
+	'ismanual'
 }
 
 
